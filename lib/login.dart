@@ -51,15 +51,15 @@ class _LoginState extends State<Login> {
                   child: const TextField(
                     style: TextStyle(color: Colors.green),
                     decoration: InputDecoration(
-                      border: InputBorder.none,
-                      focusedBorder: UnderlineInputBorder(
-                          borderSide: BorderSide(color: Colors.green)),
-                      prefixIcon: Icon(
-                        Icons.email,
-                      ),
-                      labelText: ('EMAIL'),
-                      labelStyle: TextStyle(fontSize: 15, color: Colors.grey)
-                    ),
+                        border: InputBorder.none,
+                        focusedBorder: UnderlineInputBorder(
+                            borderSide: BorderSide(color: Colors.green)),
+                        prefixIcon: Icon(
+                          Icons.email,
+                        ),
+                        labelText: ('EMAIL'),
+                        labelStyle:
+                            TextStyle(fontSize: 15, color: Colors.grey)),
                   ),
                 ),
               ),
@@ -78,15 +78,15 @@ class _LoginState extends State<Login> {
                   child: const TextField(
                     style: TextStyle(color: Colors.green),
                     decoration: InputDecoration(
-                      border: InputBorder.none,
-                      focusedBorder: UnderlineInputBorder(
-                          borderSide: BorderSide(color: Colors.green)),
-                      prefixIcon: Icon(
-                        Icons.lock,
-                      ),
-                      labelText: ('PASSWORD'),
-                      labelStyle: TextStyle(fontSize: 15, color: Colors.grey)
-                    ),
+                        border: InputBorder.none,
+                        focusedBorder: UnderlineInputBorder(
+                            borderSide: BorderSide(color: Colors.green)),
+                        prefixIcon: Icon(
+                          Icons.lock,
+                        ),
+                        labelText: ('PASSWORD'),
+                        labelStyle:
+                            TextStyle(fontSize: 15, color: Colors.grey)),
                   ),
                 ),
               ),
@@ -112,7 +112,7 @@ class _LoginState extends State<Login> {
               height: 35,
             ),
             Container(
-              width: 430,
+              width: 360,
               height: 60,
               child: TextButton(
                 style: TextButton.styleFrom(
